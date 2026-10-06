@@ -1,0 +1,6111 @@
+[
+  {
+    "name": "doc.ua",
+    "url": "https://doc.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "doc.ua",
+    "url": "https://doc.ua/mobapi/patient/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "doc.ua",
+    "url": "https://doc.ua/news/articles/kak-otlichit-poddelnyj-med-ot-naturalnogo",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bi.ua",
+    "url": "https://bi.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bi.ua",
+    "url": "https://bi.ua/api/v1/accounts",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bi.ua",
+    "url": "https://bi.ua/ukr/signup/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my-shop.ru",
+    "url": "https://my-shop.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my-shop.ru",
+    "url": "https://my-shop.ru/cgi-bin/my_util2.pl",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my-shop.ru",
+    "url": "https://my-shop.ru/cgi-bin/my_util2.pl?q=my_code_for_phone_confirmation&view_id=cad78c6d-6e8b-4443-abe9-f89658b37fe933a0b9054",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com/kiev/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com/kiev/%22%2C%22currentVisitUpdatedAt%22:1709410120%2C%22currentVisitOpenPages%22:1%2C%22campaignTime%22:1709410120%2C%22campaignCount%22:1%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1709410120}%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1709410120}}",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com/user/phone/validate",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com/vin/menu/wow/?utm_source=google&utm_medium=cpc&utm_campaign=pfmax_general_vinnitsa_brander&utm_term=&placement=&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcreAMbTU_K40wrOgZOYuozIa5jgWcO0urp0O3ijQAvbfhBzLcdIuU_oaAoGhEALw_wcB",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ua.sushistory.com",
+    "url": "https://ua.sushistory.com/vin/menu/wow/?utm_source=google&utm_medium=cpc&utm_campaign=pfmax_general_vinnitsa_brander&utm_term=&placement=&gad_source=1&gclid=Cj0KCQjwkdO0BhDxARIsANkNcreAMbTU_K40wrOgZOYuozIa5jgWcO0urp0O3ijQAvbfhBzLcdIuU_oaAoGhEALw_wcB%22%2C%22currentVisitUpdatedAt%22:1721065488%2C%22currentVisitOpenPages%22:1%2C%22campaignTime%22:1721065488%2C%22campaignCount%22:1%2C%22utmDataCurrent%22:{%22gclid%22:%22Cj0KCQjwkdO0BhDxARIsANkNcreAMbTU_K40wrOgZOYuozIa5jgWcO0urp0O3ijQAvbfhBzLcdIuU_oaAoGhEALw_wcB%22%2C%22utm_source%22:%22google%22%2C%22utm_medium%22:%22cpc%22%2C%22utm_campaign%22:%22pfmax_general_vinnitsa_brander%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1721065488}%2C%22utmDataFirst%22:{%22utm_source%22:%22google%22%2C%22utm_medium%22:%22cpc%22%2C%22utm_campaign%22:%22pfmax_general_vinnitsa_brander%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1721065488}%2C%22utmDataFirstPaid%22:{%22utm_source%22:%22google%22%2C%22utm_medium%22:%22cpc%22%2C%22utm_campaign%22:%22pfmax_general_vinnitsa_brander%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1721065488}%2C%22utmDataLastPaid%22:{%22utm_source%22:%22google%22%2C%22utm_medium%22:%22cpc%22%2C%22utm_campaign%22:%22pfmax_general_vinnitsa_brander%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1721065488}}",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.apteka.ru",
+    "url": "https://api.apteka.ru/Auth/Auth_Code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.apteka.ru",
+    "url": "https://api.apteka.ru/Cart/ShortInfo",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.apteka.ru",
+    "url": "https://api.apteka.ru/City/Cities",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.apteka.ru",
+    "url": "https://api.apteka.ru/City/UserCity",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.apteka.ru",
+    "url": "https://api.apteka.ru/User/StartSession",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "4lapy.ru",
+    "url": "https://4lapy.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "4lapy.ru",
+    "url": "https://4lapy.ru/ajax/confirmation/phone/send-code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "4lapy.ru",
+    "url": "https://4lapy.ru/personal/register/?backurl=https%3A%2F%2F4lapy.ru%2Fcatalog%2F%3Futm_source%3Dyandex_direct&utm_medium=cpc&utm_campaign=4LP_898381_yandex-se-rf-brand-ecommerce&utm_content=alw_ch_yandex_direct%7Ccid_97476680%7Cgid_5299636826%7Cad_15123357319%7Cph_47509250324%7Ccrt_0%7Csrc_search_none%7Ctgt_47509250324%7Cdvt_mobile%7Cpst_1_premium%7Creg_%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%7Cmpid_4LP_898381_yandex-se-rf-brand-ecommerce&utm_term=%D0%B7%D0%BE%D0%BE%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%204%20%D0%BB%D0%B0%D0%BF%D1%8B&pid=yandex_direct_cpc&is_retargeting=true&c=4LP_898381_yandex-se-rf-brand-ecommerce&rta_tm=yandex_cid%3A97476680_gid%3A5299636826_adid%3A15123357319_kwid%3A47509250324_st%3Asearch_s%3Anone_ret%3A47509250324&yclid=6642761552540467199",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "blanc.ru",
+    "url": "https://blanc.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "blanc.ru",
+    "url": "https://blanc.ru/api/sso/v1/entrance/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "blanc.ru",
+    "url": "https://blanc.ru/api/sso/v1/entrance/token",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "british-bakery.ru",
+    "url": "https://british-bakery.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "british-bakery.ru",
+    "url": "https://british-bakery.ru/auth/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "british-bakery.ru",
+    "url": "https://british-bakery.ru/catalog/torty/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "elmir.ua",
+    "url": "https://elmir.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "elmir.ua",
+    "url": "https://elmir.ua/cell_phones/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "elmir.ua",
+    "url": "https://elmir.ua/response/load_json.php?type=validate_phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "m2.ru",
+    "url": "https://m2.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "m2.ru",
+    "url": "https://m2.ru/api/auth-bff/api/create-otp-session",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "m2.ru",
+    "url": "https://m2.ru/api/auth-bff/api/sign-in",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "m2.ru",
+    "url": "https://m2.ru/login/client",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.prom.ua",
+    "url": "https://my.prom.ua/_ips/checkPow",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.prom.ua",
+    "url": "https://my.prom.ua/_ips/getPow",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.prom.ua",
+    "url": "https://my.prom.ua/api/_/mobile/auth/v1/get_power_prefix",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.prom.ua",
+    "url": "https://my.prom.ua/api/_/mobile/auth/v1/phone_email_login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.raiffeisen.ru",
+    "url": "https://online.raiffeisen.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.raiffeisen.ru",
+    "url": "https://online.raiffeisen.ru/id/oauth/id/token",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.raiffeisen.ru",
+    "url": "https://online.raiffeisen.ru/id/oauth/mfa/otp/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.raiffeisen.ru",
+    "url": "https://online.raiffeisen.ru/login/main",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.ctrs.com.ua",
+    "url": "https://www.ctrs.com.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.ctrs.com.ua",
+    "url": "https://www.ctrs.com.ua/smartfony-mobilnye-telefony/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.moyo.ua",
+    "url": "https://www.moyo.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.moyo.ua",
+    "url": "https://www.moyo.ua/identity/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.moyo.ua",
+    "url": "https://www.moyo.ua/identity/registration/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.moyo.ua",
+    "url": "https://www.moyo.ua/identity/registration/%22%2C%22currentVisitUpdatedAt%22:1709407912%2C%22currentVisitOpenPages%22:2%2C%22campaignTime%22:1709407892%2C%22campaignCount%22:1%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1709407892}%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1709407892}}",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "101internet.ru",
+    "url": "https://101internet.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "101internet.ru",
+    "url": "https://101internet.ru/auth/local/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "101internet.ru",
+    "url": "https://101internet.ru/krasnodar/providers/krasnodartelecom",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "5element.by",
+    "url": "https://5element.by",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "5element.by",
+    "url": "https://5element.by/catalog/235-naushniki-besprovodnye-bluetooth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "5element.by",
+    "url": "https://5element.by/user/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "agro-market.net",
+    "url": "https://agro-market.net",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "agro-market.net",
+    "url": "https://agro-market.net/ajax/auth.php?lang=ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "agro-market.net",
+    "url": "https://agro-market.net/ua/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "alfabank.ru",
+    "url": "https://alfabank.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "alfabank.ru",
+    "url": "https://alfabank.ru/api/v1/invest-cross-sell-orc/applications/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "alfabank.ru",
+    "url": "https://alfabank.ru/make-money/investments/brokerskij-schyot/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "almaz.comfortkino.ru",
+    "url": "https://almaz.comfortkino.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "almaz.comfortkino.ru",
+    "url": "https://almaz.comfortkino.ru/local/php_interface/api/v1/user/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "almaz.comfortkino.ru",
+    "url": "https://almaz.comfortkino.ru/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "anc.ua",
+    "url": "https://anc.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "anc.ua",
+    "url": "https://anc.ua/authorization/auth/v2/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api-v3.dominos.ua",
+    "url": "https://api-v3.dominos.ua/api/v3/account/anonymous-token",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api-v3.dominos.ua",
+    "url": "https://api-v3.dominos.ua/api/v3/account/confirmation/send-confirmation-notification",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api-v3.dominos.ua",
+    "url": "https://api-v3.dominos.ua/api/v3/account/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.profi.ru",
+    "url": "https://api.profi.ru/warp/v2",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.profi.ru",
+    "url": "https://api.profi.ru/warp/v2/auth/token/init",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.profi.ru",
+    "url": "https://api.profi.ru/warp/v2/graphql",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "armed.ru",
+    "url": "https://armed.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "armed.ru",
+    "url": "https://armed.ru/personal/ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "astmarket.com",
+    "url": "https://astmarket.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "astmarket.com",
+    "url": "https://astmarket.com/api/auth/sms",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bbburgers.ru",
+    "url": "https://bbburgers.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bbburgers.ru",
+    "url": "https://bbburgers.ru/api/auth/resetCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "beloris.ru",
+    "url": "https://beloris.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "beloris.ru",
+    "url": "https://beloris.ru/?r=0.6576217973266996",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "beloris.ru",
+    "url": "https://beloris.ru/ajax/users/send_sms_login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "chel.zhivika.ru",
+    "url": "https://chel.zhivika.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "chel.zhivika.ru",
+    "url": "https://chel.zhivika.ru/?utm_referrer=https%3A%2F%2Fwww.google.com%2F",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "chel.zhivika.ru",
+    "url": "https://chel.zhivika.ru/auth/sms",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "clubve.delivery",
+    "url": "https://clubve.delivery",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "clubve.delivery",
+    "url": "https://clubve.delivery/api/auth/resetCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "color16.ru",
+    "url": "https://color16.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "color16.ru",
+    "url": "https://color16.ru/auth/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "color16.ru",
+    "url": "https://color16.ru/bitrix/components/bxmaker/authuserphone.enter/ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "creditkasa.com.ua",
+    "url": "https://creditkasa.com.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "discovery-stb3.ertelecom.ru",
+    "url": "https://discovery-stb3.ertelecom.ru/er/ott/get_sms_code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "discovery-stb3.ertelecom.ru",
+    "url": "https://discovery-stb3.ertelecom.ru/er/sms/auth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "discovery-stb3.ertelecom.ru",
+    "url": "https://discovery-stb3.ertelecom.ru/token/device",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dok.ua",
+    "url": "https://dok.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dok.ua",
+    "url": "https://dok.ua/profile/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dostavka.shaverno.ru",
+    "url": "https://dostavka.shaverno.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dostavka.shaverno.ru",
+    "url": "https://dostavka.shaverno.ru/api/auth/resetCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "fitmost.ru",
+    "url": "https://fitmost.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "fitmost.ru",
+    "url": "https://fitmost.ru/trial-subscription/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "glavnoehvost.ru",
+    "url": "https://glavnoehvost.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "glavnoehvost.ru",
+    "url": "https://glavnoehvost.ru/ajax/sms/signup/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "glavnoehvost.ru",
+    "url": "https://glavnoehvost.ru/signup",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "helsi.me",
+    "url": "https://helsi.me",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "helsi.me",
+    "url": "https://helsi.me/api/healthy/v2/accounts/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "homehit.shop",
+    "url": "https://homehit.shop/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "homehit.shop",
+    "url": "https://homehit.shop/cabinet/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "homehit.shop",
+    "url": "https://homehit.shop/cabinet/login-with-phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ib.psbank.ru",
+    "url": "https://ib.psbank.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ib.psbank.ru",
+    "url": "https://ib.psbank.ru/api/authentication/extendedClientAuthRequest",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ib.psbank.ru",
+    "url": "https://ib.psbank.ru/store/products/special-purpose-loan?LG=105652351&formScroll=&utm_source=newSitePSB&utm_medium=Potreb_credits_page&utm_campaign=PotrebCredit_KON&utm_content=order",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.skyeng.ru",
+    "url": "https://id.skyeng.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.skyeng.ru",
+    "url": "https://id.skyeng.ru/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.skyeng.ru",
+    "url": "https://id.skyeng.ru/user-api/v1/auth/one-time-password/by-phone-to-login-or-confirm",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.t-bank-app.ru",
+    "url": "https://id.t-bank-app.ru/auth/authorize",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.t-bank-app.ru",
+    "url": "https://id.t-bank-app.ru/auth/device-registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.t-bank-app.ru",
+    "url": "https://id.t-bank-app.ru/auth/step",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.tbank.ru",
+    "url": "https://id.tbank.ru/auth/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.tbank.ru",
+    "url": "https://id.tbank.ru/auth/routedecision?is_iframe=false&k=",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.tbank.ru",
+    "url": "https://id.tbank.ru/auth/step?cid=",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "idol.ru",
+    "url": "https://idol.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "idol.ru",
+    "url": "https://idol.ru/api/auth/code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "idol.ru",
+    "url": "https://idol.ru/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "igooods.ru",
+    "url": "https://igooods.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "igooods.ru",
+    "url": "https://igooods.ru/api/v10/profile/send_code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "igooods.ru",
+    "url": "https://igooods.ru/msk",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ixora-auto.ru",
+    "url": "https://ixora-auto.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ixora-auto.ru",
+    "url": "https://ixora-auto.ru/api/Store/v1.0/Account/SendPhoneVerificationCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ixora-auto.ru",
+    "url": "https://ixora-auto.ru/enter",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "knopkadengi.ru",
+    "url": "https://knopkadengi.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "knopkadengi.ru",
+    "url": "https://knopkadengi.ru/api/registration/send/code?mobilePhone={phone}",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "knopkadengi.ru",
+    "url": "https://knopkadengi.ru/registration/step1",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krasnodar.santeh.guru",
+    "url": "https://krasnodar.santeh.guru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krasnodar.santeh.guru",
+    "url": "https://krasnodar.santeh.guru/index.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "krasnodar.santeh.guru",
+    "url": "https://krasnodar.santeh.guru/santehnika/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krasnodar.wed-expert.com",
+    "url": "https://krasnodar.wed-expert.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krasnodar.wed-expert.com",
+    "url": "https://krasnodar.wed-expert.com/api/frontend/auth/SMSAuth/get",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krasnodar.wed-expert.com",
+    "url": "https://krasnodar.wed-expert.com/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ktc.ua",
+    "url": "https://ktc.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ktc.ua",
+    "url": "https://ktc.ua/aj",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lapshu.online",
+    "url": "https://lapshu.online",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lapshu.online",
+    "url": "https://lapshu.online/api/auth/resetCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lemurrr.ru",
+    "url": "https://lemurrr.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lemurrr.ru",
+    "url": "https://lemurrr.ru/registration-card",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lemurrr.ru",
+    "url": "https://lemurrr.ru/registration-card/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.beliedengi.ru",
+    "url": "https://lk.beliedengi.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.beliedengi.ru",
+    "url": "https://lk.beliedengi.ru/api/json/sendSMS",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.beliedengi.ru",
+    "url": "https://lk.beliedengi.ru/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.dune-hd.tv",
+    "url": "https://lk.dune-hd.tv",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.dune-hd.tv",
+    "url": "https://lk.dune-hd.tv/site",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.dune-hd.tv",
+    "url": "https://lk.dune-hd.tv/v2/otps",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.mysbertips.ru",
+    "url": "https://lk.mysbertips.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.mysbertips.ru",
+    "url": "https://lk.mysbertips.ru/sbrftips-proxy/registration/start",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "login.bilimland.kz",
+    "url": "https://login.bilimland.kz",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "login.bilimland.kz",
+    "url": "https://login.bilimland.kz/api/v1/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "login.bilimland.kz",
+    "url": "https://login.bilimland.kz/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lovilave.com.ua",
+    "url": "https://lovilave.com.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lovilave.com.ua",
+    "url": "https://lovilave.com.ua/signin",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lovilave.com.ua",
+    "url": "https://lovilave.com.ua/v2/sign/request",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobicredit.ru",
+    "url": "https://mobicredit.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobicredit.ru",
+    "url": "https://mobicredit.ru/api/registration/send/code?mobilePhone={phone}&surname=%D0%9A%D0%9F%D0%BF%D0%BA%D0%BF%D0%BA%D0%BF%D0%BA&name=%D0%9F%D0%9A%D0%BF%D0%BA%D0%BF%D0%BA%D0%BF%D0%BA&patronymic=%D0%9F%D0%9A%D0%BF%D0%BA%D0%BF%D0%BA%D0%BF%D0%BA%D0%BF%D0%BA&email=riregeh@gmail.com&birthday=2001-01-01",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "mobicredit.ru",
+    "url": "https://mobicredit.ru/app/step1_register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "msg.etagi.com",
+    "url": "https://msg.etagi.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "msg.etagi.com",
+    "url": "https://msg.etagi.com/lk_mainpage/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "msg.etagi.com",
+    "url": "https://msg.etagi.com/rest/plugin.etagi",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.joy.money",
+    "url": "https://my.joy.money",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.joy.money",
+    "url": "https://my.joy.money/client-interface/authorize",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.joy.money",
+    "url": "https://my.joy.money/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ninjapizza.ru",
+    "url": "https://ninjapizza.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ninjapizza.ru",
+    "url": "https://ninjapizza.ru/api/user/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ninjapizza.ru",
+    "url": "https://ninjapizza.ru/krasnoyarsk/new",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "novus.online",
+    "url": "https://novus.online",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "novus.online",
+    "url": "https://novus.online/category/picca?gad_source=1&gclid=EAIaIQobChMI14HiiYLqhAMVcZ9oCR1sTQKUEAAYAiAAEgKCf_D_BwE",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "novus.online",
+    "url": "https://novus.online/oms/auth/send-code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.otpbank.ru",
+    "url": "https://online.otpbank.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.otpbank.ru",
+    "url": "https://online.otpbank.ru/api/public/v1/auth/phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.otpbank.ru",
+    "url": "https://online.otpbank.ru/login/product-auth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pivko24.ru",
+    "url": "https://pivko24.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pivko24.ru",
+    "url": "https://pivko24.ru/feedback/callback",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pizzahouse.ua",
+    "url": "https://pizzahouse.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pizzahouse.ua",
+    "url": "https://pizzahouse.ua/api/v2/auth/sendPin",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pnz.yakitoriya.ru",
+    "url": "https://pnz.yakitoriya.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pnz.yakitoriya.ru",
+    "url": "https://pnz.yakitoriya.ru/users/profile",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pnz.yakitoriya.ru",
+    "url": "https://pnz.yakitoriya.ru/users/request_sms_code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "remzona.by",
+    "url": "https://remzona.by",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "remzona.by",
+    "url": "https://remzona.by/profile",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sravni.id",
+    "url": "https://sravni.id",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sravni.id",
+    "url": "https://sravni.id/signin/code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sravni.id",
+    "url": "https://sravni.id/signin?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dwww%26scope%3Dopenid%2520offline_access%2520email%2520phone%2520profile%2520roles%2520reviews%2520esia%2520orders.r%2520messagesender.sms%2520Sravni.Reviews.Service%2520Sravni.Osago.Service%2520Sravni.QnA.Service%2520Sravni.FileStorage.Service%2520Sravni.PhoneVerifier.Service%2520Sravni.Identity.Service%2520Sravni.VZR.Service%2520Sravni.Affiliates.Service%2520Sravni.News.Service%26response_type%3Dcode%2520id_token%26redirect_uri%3Dhttps%253A%252F%252Fwww.sravni.ru%252Fopenid%252Fv2%252Fcallback%252F%26display%3Dpopup%26response_mode%3Dform_post%26state%3DtSfMLpp_vvSFc-XTzmwm_zh7jtg9GWkIugoEpzjpG_Y%26nonce%3D_pEEawHb2Hlgr7yLexFQZ8iwds29iab-SYB8d6fNeB4",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "valta.ru",
+    "url": "https://valta.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "valta.ru",
+    "url": "https://valta.ru/bitrix/services/main/ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "valta.ru",
+    "url": "https://valta.ru/register/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vittorossi.ua",
+    "url": "https://vittorossi.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vittorossi.ua",
+    "url": "https://vittorossi.ua/local/components/hl/auth.sms/ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "vittorossi.ua",
+    "url": "https://vittorossi.ua/personal/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vodnik.ru",
+    "url": "https://vodnik.ru/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vodnik.ru",
+    "url": "https://vodnik.ru/signin/sms-request",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "wavteam.github.io",
+    "url": "https://wavteam.github.io/static/data.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "wavteam.github.io",
+    "url": "https://wavteam.github.io/static/services.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "wavteam.github.io",
+    "url": "https://wavteam.github.io/static/testing.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "winetime.com.ua",
+    "url": "https://winetime.com.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "winetime.com.ua",
+    "url": "https://winetime.com.ua/ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "winetime.com.ua",
+    "url": "https://winetime.com.ua/ua/api/auth/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.coolclever.ru",
+    "url": "https://www.coolclever.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.coolclever.ru",
+    "url": "https://www.coolclever.ru/v4/site/user/auth/request-code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.demix.ru",
+    "url": "https://www.demix.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.demix.ru",
+    "url": "https://www.demix.ru/api/auth/otp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.klentrade.ru",
+    "url": "https://www.klentrade.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.klentrade.ru",
+    "url": "https://www.klentrade.ru/php/_ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "www.klentrade.ru",
+    "url": "https://www.klentrade.ru/reg/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.traektoria.ru",
+    "url": "https://www.traektoria.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.traektoria.ru",
+    "url": "https://www.traektoria.ru/auth/?register=yes",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.traektoria.ru",
+    "url": "https://www.traektoria.ru/local/ajax/authorize.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "zdesapteka.ru",
+    "url": "https://zdesapteka.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "zdesapteka.ru",
+    "url": "https://zdesapteka.ru/bitrix/services/main/ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "a-bank.com.ua",
+    "url": "https://a-bank.com.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "a-bank.com.ua",
+    "url": "https://a-bank.com.ua/cards/atb",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "allopizza.su",
+    "url": "https://allopizza.su",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "allopizza.su",
+    "url": "https://allopizza.su/msk/all",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.comfortkino.ru",
+    "url": "https://api.comfortkino.ru/app/login/code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.comfortkino.ru",
+    "url": "https://api.comfortkino.ru/app/registration/code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.creditkasa.ua",
+    "url": "https://api.creditkasa.ua/public/auth/sendAcceptanceCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.creditkasa.ua",
+    "url": "https://api.creditkasa.ua/public/auth/sendAcceptanceCode?productGroup=PDL&phone={full_phone}&brandName=CreditKasa",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "api.lenta.com",
+    "url": "https://api.lenta.com/v1/auth/code/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.lenta.com",
+    "url": "https://api.lenta.com/v1/auth/session/guest/token",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.lifemart.ru",
+    "url": "https://api.lifemart.ru/api/info/settings",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.lifemart.ru",
+    "url": "https://api.lifemart.ru/api/user/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.trump.ru",
+    "url": "https://api.trump.ru/m/system/set_phone_verification_code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.trump.ru",
+    "url": "https://api.trump.ru/m/system/setup_user/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "app.vkuster.ru",
+    "url": "https://app.vkuster.ru/client/authentication/send_code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "app.vkuster.ru",
+    "url": "https://app.vkuster.ru/device/registration/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "apteka.ru",
+    "url": "https://apteka.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "avon.ru",
+    "url": "https://avon.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "babylonvape.ru",
+    "url": "https://babylonvape.ru/auth/registration/?register=yes&backurl=%2Fauth%2F",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "babylonvape.ru",
+    "url": "https://babylonvape.ru/auth/registration/?register=yes&backurl=/auth/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bill.jehost.ru",
+    "url": "https://bill.jehost.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bill.jehost.ru",
+    "url": "https://bill.jehost.ru/billmgr?func=register&lang=ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bolshoe.tv",
+    "url": "https://bolshoe.tv",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bootwood.com",
+    "url": "https://bootwood.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bootwood.com",
+    "url": "https://bootwood.com/personal/profile/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "budusushi.ua",
+    "url": "https://budusushi.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "byjus.com",
+    "url": "https://byjus.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "citydrive.ru",
+    "url": "https://citydrive.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "client.creddy.ru",
+    "url": "https://client.creddy.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "conceptclub.ru",
+    "url": "https://conceptclub.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "cozyhome.ru",
+    "url": "https://cozyhome.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dopoluchkino.ru",
+    "url": "https://dopoluchkino.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dostavista.ru",
+    "url": "https://dostavista.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "easypay.ua",
+    "url": "https://easypay.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "eshe.club",
+    "url": "https://eshe.club",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "eva.ua",
+    "url": "https://eva.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "farsh.in.ua",
+    "url": "https://farsh.in.ua/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "farsh.in.ua",
+    "url": "https://farsh.in.ua/wp-admin/admin-ajax.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "frutoss.ru",
+    "url": "https://frutoss.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "groupprice.ru",
+    "url": "https://groupprice.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "h24.ua",
+    "url": "https://h24.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "hands.ru",
+    "url": "https://hands.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "hands.ru",
+    "url": "https://hands.ru/client/orders/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "hoff.ru",
+    "url": "https://hoff.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "hoff.ru",
+    "url": "https://hoff.ru/?utm_referrer=https%3A%2F%2Fwww.google.com%2F",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "kazanexpress.ru",
+    "url": "https://kazanexpress.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "kimono-27.ru",
+    "url": "https://kimono-27.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "kino.1tv.ru",
+    "url": "https://kino.1tv.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "kiozk.ru",
+    "url": "https://kiozk.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "kiozk.ru",
+    "url": "https://kiozk.ru/lp2",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krd.split-nastroi.ru",
+    "url": "https://krd.split-nastroi.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "krd.split-nastroi.ru",
+    "url": "https://krd.split-nastroi.ru/cabinet/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.podeli.ru",
+    "url": "https://lk.podeli.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk3.invitro.ru",
+    "url": "https://lk3.invitro.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk3.invitro.ru",
+    "url": "https://lk3.invitro.ru/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lknpd.nalog.ru",
+    "url": "https://lknpd.nalog.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lknpd.nalog.ru",
+    "url": "https://lknpd.nalog.ru/auth/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "marketing.beeline.ru",
+    "url": "https://marketing.beeline.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "maslotom.com",
+    "url": "https://maslotom.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "maslotom.com",
+    "url": "https://maslotom.com/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "megasport.ua",
+    "url": "https://megasport.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "megasport.ua",
+    "url": "https://megasport.ua/ru/?isAuthPopup=true",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mlk.marya.ru",
+    "url": "https://mlk.marya.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mlk.marya.ru",
+    "url": "https://mlk.marya.ru/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mm.ru",
+    "url": "https://mm.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mnp.lifecell.ua",
+    "url": "https://mnp.lifecell.ua/mnp/get-token/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mnp.lifecell.ua",
+    "url": "https://mnp.lifecell.ua/mnp/otp/send/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "navse.in.ua",
+    "url": "https://navse.in.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "nskfloraopt.ru",
+    "url": "https://nskfloraopt.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "obi.ru",
+    "url": "https://obi.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "okolo.market",
+    "url": "https://okolo.market/api/v1/auth/authorize",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "okolo.market",
+    "url": "https://okolo.market/api/web/security/token/get",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online-apteka.com.ua",
+    "url": "https://online-apteka.com.ua/\",\"currentVisitOpenPages\":2,\"location\":\"https://online-apteka.com.ua/auth.html\",\"locationTitle\":",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online-apteka.com.ua",
+    "url": "https://online-apteka.com.ua/assets/components/ajaxfrontend/action.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "online.sberbank.ru",
+    "url": "https://online.sberbank.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.sberbank.ru",
+    "url": "https://online.sberbank.ru/CSAFront/uapi/v2/authenticate",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "orientalforyou.com",
+    "url": "https://orientalforyou.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "oskelly.ru",
+    "url": "https://oskelly.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "parking.spb.ru",
+    "url": "https://parking.spb.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "portal.oppen.ru",
+    "url": "https://portal.oppen.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "privsosed.ru",
+    "url": "https://privsosed.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pwa.velobike.ru",
+    "url": "https://pwa.velobike.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "retail-kb.kbapp.ru",
+    "url": "https://retail-kb.kbapp.ru/api/v1/accounts/auth/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "retail-kb.kbapp.ru",
+    "url": "https://retail-kb.kbapp.ru/api/v1/users/registration/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "rollex.ru",
+    "url": "https://rollex.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "rusapp.ru",
+    "url": "https://rusapp.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "rusapp.ru",
+    "url": "https://rusapp.ru/menu/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "skbfinance.ru",
+    "url": "https://skbfinance.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "smart.1tv.ru",
+    "url": "https://smart.1tv.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sms-fly.ua",
+    "url": "https://sms-fly.ua/registration/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sms-fly.ua",
+    "url": "https://sms-fly.ua/registration/confirm/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "spb.canapeclub.ru",
+    "url": "https://spb.canapeclub.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "spb.canapeclub.ru",
+    "url": "https://spb.canapeclub.ru/create-account/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "spb.simplymeal.ru",
+    "url": "https://spb.simplymeal.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "start.ru",
+    "url": "https://start.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "street-beat.ru",
+    "url": "https://street-beat.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "svoefermerstvo.ru",
+    "url": "https://svoefermerstvo.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "svoefermerstvo.ru",
+    "url": "https://svoefermerstvo.ru/auth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tas2u.tascombank.ua",
+    "url": "https://tas2u.tascombank.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tas2u.tascombank.ua",
+    "url": "https://tas2u.tascombank.ua/registration",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "telemart.ua",
+    "url": "https://telemart.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "telemart.ua",
+    "url": "https://telemart.ua/ua/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tengo.ua",
+    "url": "https://tengo.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tetrika-school.ru",
+    "url": "https://tetrika-school.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tetrika-school.ru",
+    "url": "https://tetrika-school.ru/auth/tutor/new?timezone=Europe/Moscow",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "translations.telegram.org",
+    "url": "https://translations.telegram.org",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tv.lifecell.ua",
+    "url": "https://tv.lifecell.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tvoe.live",
+    "url": "https://tvoe.live",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ufa.luding.ru",
+    "url": "https://ufa.luding.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ufa.luding.ru",
+    "url": "https://ufa.luding.ru/bonus-program/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "urbanvibes.com",
+    "url": "https://urbanvibes.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vrachi-online.ru",
+    "url": "https://vrachi-online.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "web.mead.club",
+    "url": "https://web.mead.club",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "webbankir.com",
+    "url": "https://webbankir.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "webos.24h.tv",
+    "url": "https://webos.24h.tv",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.crocshop.ru",
+    "url": "https://www.crocshop.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.crocshop.ru",
+    "url": "https://www.crocshop.ru/personal/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.nl.ua",
+    "url": "https://www.nl.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.nl.ua",
+    "url": "https://www.nl.ua/ua/personal/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.pik.ru",
+    "url": "https://www.pik.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.pokrishka.ru",
+    "url": "https://www.pokrishka.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.pokrishka.ru",
+    "url": "https://www.pokrishka.ru/catalog.html",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.sberbank.ru",
+    "url": "https://www.sberbank.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.sberbank.ru",
+    "url": "https://www.sberbank.ru/ru/s_m_business/reserved-checking-account24",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.shinservice.ru",
+    "url": "https://www.shinservice.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.shinservice.ru",
+    "url": "https://www.shinservice.ru/?showAuthModal=true",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.staff-clothes.com",
+    "url": "https://www.staff-clothes.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "yarollov.ru",
+    "url": "https://yarollov.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "zalog-ocenka.ru",
+    "url": "https://zalog-ocenka.ru/api/customer/resetPassword",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "zalog-ocenka.ru",
+    "url": "https://zalog-ocenka.ru/credit/order/?showAuth&sentPhone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "cabinet.water26.ru:8080",
+    "url": "http://cabinet.water26.ru:8080/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "a-api.fix-price.com",
+    "url": "https://a-api.fix-price.com/buyer/v2/registration/phone/request",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "account.kyivstar.ua",
+    "url": "https://account.kyivstar.ua/cas/new/api/otp/send?locale=uk",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "account.skidkaonline.by",
+    "url": "https://account.skidkaonline.by",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "account.smotrim.ru",
+    "url": "https://account.smotrim.ru/api/v1/auth?phone={phone}",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "android.consumer.",
+    "url": "https://android.consumer.",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api-auth.creddy.ru",
+    "url": "https://api-auth.creddy.ru/api/v1/user/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api-new.elementaree.ru",
+    "url": "https://api-new.elementaree.ru/graphql",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.01.hungrygator.ru",
+    "url": "https://api.01.hungrygator.ru/web/auth/webotp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.585zolotoy.ru",
+    "url": "https://api.585zolotoy.ru/api/sms/send_code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.doc.ua",
+    "url": "https://api.doc.ua/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.eda1.ru",
+    "url": "https://api.eda1.ru/api/user/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.eldorado.ua",
+    "url": "https://api.eldorado.ua/v1/sign/?login=",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.kaplife.ru",
+    "url": "https://api.kaplife.ru/auth/recovery_pass",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.kazanexpress.ru",
+    "url": "https://api.kazanexpress.ru/api/signin/phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.kino.1tv.ru",
+    "url": "https://api.kino.1tv.ru/1.4/sendUserCode?msisdn={phone}",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "api.obile.bristol.ru",
+    "url": "https://api.obile.bristol.ru/oauth/tinkoff_id_mobile?phone={phone}",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "api.pik.ru",
+    "url": "https://api.pik.ru/v1/phone/check",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.privsosed.ru",
+    "url": "https://api.privsosed.ru/anketa/api/send-sms/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.rollex.ru",
+    "url": "https://api.rollex.ru/api/v4/auth/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.start.ru",
+    "url": "https://api.start.ru/auth/device/login?apikey=a20b12b279f744f2b3c7b5c5400c4eb5",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.sunlight.net",
+    "url": "https://api.sunlight.net/modules/customer-auth/v1/app/send/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.t2.ru",
+    "url": "https://api.t2.ru/api/validation/number/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.tengo.ua",
+    "url": "https://api.tengo.ua/api/v1/user-register?language=uk",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.tvoe.live",
+    "url": "https://api.tvoe.live/auth/sms/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.vozovoz.ru",
+    "url": "https://api.vozovoz.ru/v3/confirm-code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "api.vrachi-online.ru",
+    "url": "https://api.vrachi-online.ru/api/v1/phone/code/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "apivelobike.velobike.ru",
+    "url": "https://apivelobike.velobike.ru/profile/restore",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "app.domino-crm.com",
+    "url": "https://app.domino-crm.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "app.limonad.com",
+    "url": "https://app.limonad.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "arbuz.kz",
+    "url": "https://arbuz.kz/api/v1/user/verification/phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "auth.1tv.ru",
+    "url": "https://auth.1tv.ru/api/v2/authorizations/by_jwt/smarttv",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "auth.easypay.ua",
+    "url": "https://auth.easypay.ua/api/check",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "baucenter.ru",
+    "url": "https://baucenter.ru/api/v2/phone/check",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "belwest.by",
+    "url": "https://belwest.by/ru/register/sendCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "blancvpn.app",
+    "url": "https://blancvpn.app",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bonus.sila.by",
+    "url": "https://bonus.sila.by/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "bot-t.com",
+    "url": "https://bot-t.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "botapi-suggest.vercel.app",
+    "url": "https://botapi-suggest.vercel.app/api/suggest/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "botconsole.net",
+    "url": "https://botconsole.net",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "burger-king.by",
+    "url": "https://burger-king.by/bitrix/services/main/ajax.php?mode=class&c=gmi:auth&action=auth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "c.ua",
+    "url": "https://c.ua/index.php?route=account/loginapples/sendSMS",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "c2c.oschadbank.ua",
+    "url": "https://c2c.oschadbank.ua/api/sms/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "cabinet.presscode.app",
+    "url": "https://cabinet.presscode.app",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "cdn.beeline.ru",
+    "url": "https://cdn.beeline.ru/phone-verify",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "chitatel.by",
+    "url": "https://chitatel.by/send-code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "chocofood.kz",
+    "url": "https://chocofood.kz/gateway/user/v2/code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "combot.org",
+    "url": "https://combot.org",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "content.miloan.ua",
+    "url": "https://content.miloan.ua/uploads/elFinder/zgoda_pers_data-14092018.pdf\\",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dedvpn.com",
+    "url": "https://dedvpn.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "delivio.by",
+    "url": "https://delivio.by/be/api/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "dostavka.dixy.ru",
+    "url": "https://dostavka.dixy.ru/ajax/mp-auth-test.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "e-zoo.by",
+    "url": "https://e-zoo.by/local/gtools/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ehr.h24.ua",
+    "url": "https://ehr.h24.ua/api/v2/signup",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "findclone.ru",
+    "url": "https://findclone.ru/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "gdz-raketa.ru",
+    "url": "https://gdz-raketa.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "gitlab.com",
+    "url": "https://gitlab.com/retrocat/bomber-static/-/raw/main/data.json?ref_type=heads",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "green-dostavka.by",
+    "url": "https://green-dostavka.by/api/v1/auth/request-confirm-code/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.kolesa.kz",
+    "url": "https://id.kolesa.kz/getInfoAuth.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.magnit.ru",
+    "url": "https://id.magnit.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "id.sber.ru",
+    "url": "https://id.sber.ru/CSAFront/oidc/sberbank_id/authorize.do?redirect_uri=dgis://sidauth&scope=openid%20name%20mobile%20email%20email_confirmed&login_hint=",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "identity.tllms.com",
+    "url": "https://identity.tllms.com/api/request_otp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ilmolino.ua",
+    "url": "https://ilmolino.ua/api/v1/user/auth",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "imarket.by",
+    "url": "https://imarket.by/ajax/auth.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "kronshtadt.food-port.ru",
+    "url": "https://kronshtadt.food-port.ru/api/user/generate-password",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lava.ru",
+    "url": "https://lava.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.mosmetro.ru",
+    "url": "https://lk.mosmetro.ru/auth/connect/otp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.sogaz.ru",
+    "url": "https://lk.sogaz.ru/api/v1/register/phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "lk.ugsk.ru",
+    "url": "https://lk.ugsk.ru/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mcrm.mead.club",
+    "url": "https://mcrm.mead.club/graphql",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mk3.kyivstar.ua",
+    "url": "https://mk3.kyivstar.ua/uaa/api/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mkb-broker.ru",
+    "url": "https://mkb-broker.ru/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mob2.privat24.ua",
+    "url": "https://mob2.privat24.ua/api/proxy/auth/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobile-api.vkusnoitochka.ru",
+    "url": "https://mobile-api.vkusnoitochka.ru/api/v1/user/login/phone",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobile-gate.chitai-gorod.ru",
+    "url": "https://mobile-gate.chitai-gorod.ru/api/v2/auth-issues",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobile.podeli.ru",
+    "url": "https://mobile.podeli.ru/mobile_auth_sms/v4/send_sms",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobile.vkusvill.ru",
+    "url": "https://mobile.vkusvill.ru/api/user/preGenerateVirtualCard/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "mobileapi.ddxfitness.ru",
+    "url": "https://mobileapi.ddxfitness.ru/verify/get_code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.ctrs.com.ua",
+    "url": "https://my.ctrs.com.ua/api/v2/signup",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "my.telegram.org",
+    "url": "https://my.telegram.org/auth/send_password",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "myfin.by",
+    "url": "https://myfin.by/send-code/verify",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ng-api.webbankir.com",
+    "url": "https://ng-api.webbankir.com/user/v2/phone_verification",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "oauth.telegram.org",
+    "url": "https://oauth.telegram.org",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "online.akbars.ru",
+    "url": "https://online.akbars.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "onlinesim.io",
+    "url": "https://onlinesim.io",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "openbomber.com",
+    "url": "https://openbomber.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ostrov-shop.by",
+    "url": "https://ostrov-shop.by/ajax/auth_custom.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "profile.sber.ru",
+    "url": "https://profile.sber.ru\",\"state\":\"43c54272-1a34-4c6f-a470-52bd53bd1e1c\",\"nonce\":\"34c136bb-7f07-492b-8f13-3d162a5ae7ba\",\"client_id\":\"2679efe6-f358-4378-b328-45dfcc4a006a\",\"referer_uri\":\"https://profile.sber.ru/\"},\"browser\":\"Chrome\",\"os\":\"Windows",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "pwa-api.eva.ua",
+    "url": "https://pwa-api.eva.ua/api/user/send-code?storeCode=ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "raw.githubusercontent.com",
+    "url": "https://raw.githubusercontent.com/wavteam/static/main/data.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "registration.vodafone.ua",
+    "url": "https://registration.vodafone.ua/api/v1/process/smsCode",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "requests.pages.dev",
+    "url": "https://requests.pages.dev/data.json",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "rest.beeline.tv",
+    "url": "https://rest.beeline.tv/api_v3/service/OTTUser/action/login",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "rnr.com.ua",
+    "url": "https://rnr.com.ua/sms/send",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "robochat.io",
+    "url": "https://robochat.io",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ru.telegram-store.com",
+    "url": "https://ru.telegram-store.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "semena-partner.ru",
+    "url": "https://semena-partner.ru/ajax/getPhoneCodeReg.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "service.urentbike.ru",
+    "url": "https://service.urentbike.ru/gatewayclient/api/mts/authorizationcallback&response_type=code&login_hint=",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "shop.by",
+    "url": "https://shop.by/management/user/register/?phone={phone}&lctn=shopby/",
+    "method": "GET",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": null
+  },
+  {
+    "name": "shop.milavitsa.by",
+    "url": "https://shop.milavitsa.by/api/accounts/signUp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sohorooms.ua",
+    "url": "https://sohorooms.ua/index.php?route=account/register/sms",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "sosedi.by",
+    "url": "https://sosedi.by/local/api/smsSend.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "sso.mycar.kz",
+    "url": "https://sso.mycar.kz/auth/login/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "sushisell.goulash.tech",
+    "url": "https://sushisell.goulash.tech/api/user/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "t-j.ru",
+    "url": "https://t-j.ru/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tbiz.pro",
+    "url": "https://tbiz.pro",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "tehnoskarb.ua",
+    "url": "https://tehnoskarb.ua/register",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "telegrambot.biz",
+    "url": "https://telegrambot.biz",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "ucb.l.podorozhnyk.com",
+    "url": "https://ucb.l.podorozhnyk.com/api/send/otp",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "unu.im",
+    "url": "https://unu.im",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vpnon.ru",
+    "url": "https://vpnon.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "vprok.prostore.by",
+    "url": "https://vprok.prostore.by/get-assistant-code",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "webgate.24guru.by",
+    "url": "https://webgate.24guru.by/api/v3/auth?lang=ru&cityId=3&jsonld=0&onlyDomain=1&domain=bycard.by&distributor_company_id=296",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "wizardvpn.app",
+    "url": "https://wizardvpn.app",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "woodman.by",
+    "url": "https://woodman.by/resource/themes/woodman/action/login/verify.php?register=true",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "www.amazon.com",
+    "url": "https://www.amazon.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.botobot.ru",
+    "url": "https://www.botobot.ru",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.elmarket.by",
+    "url": "https://www.elmarket.by/public/ajax/sms_reg.php",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{phone}"
+    }
+  },
+  {
+    "name": "www.gate.io",
+    "url": "https://www.gate.io",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.google.com",
+    "url": "https://www.google.com/",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.liqpay.ua",
+    "url": "https://www.liqpay.ua/apiweb/login/start",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.privat24.ua",
+    "url": "https://www.privat24.ua",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.respect-shoes.kz",
+    "url": "https://www.respect-shoes.kz/send_sms",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.spot.uz",
+    "url": "https://www.spot.uz",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "www.yahoo.com",
+    "url": "https://www.yahoo.com",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  },
+  {
+    "name": "xn--80adjkr6adm9b.xn--p1ai",
+    "url": "https://xn--80adjkr6adm9b.xn--p1ai/api/v5/user/start-authorization",
+    "method": "POST",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "payload": {
+      "phone": "{full_phone}"
+    }
+  }
+]
